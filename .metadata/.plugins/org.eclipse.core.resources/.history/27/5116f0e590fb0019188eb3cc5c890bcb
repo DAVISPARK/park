@@ -1,0 +1,27 @@
+package com.cos.action.user;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.cos.action.Action;
+import com.cos.model.User;
+
+public class UserUpdateAction implements Action {
+
+	@Override
+	public void execute(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		
+		int password =  Integer.parseInt(request.getParameter("password"));
+		String address = request.getParameter("address");
+		
+		User user = new User();
+		
+		
+
+	}
+
+}

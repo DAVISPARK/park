@@ -1,0 +1,5 @@
+package com.cos.dao;
+
+public class BoardDao {
+
+}
