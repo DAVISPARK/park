@@ -20,5 +20,6 @@ public class Board {
 	private Timestamp createDate;
 	private String previewImg;	//DB와 상관없음. (이미지 파싱해서 넣어줌)
 	private User user = new User();
+
 	
 }	

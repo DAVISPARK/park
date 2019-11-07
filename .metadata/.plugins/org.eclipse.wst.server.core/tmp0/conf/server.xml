@@ -149,8 +149,8 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="E:\workspace\blog_project\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="E:\workspace\blog_project\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\blog" path="/blog" reloadable="true" source="org.eclipse.jst.jee.server:blog">
-  <Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxIdle="30" maxTotal="100" maxWaitMillis="10000" name="jdbc/TestDB" password="Bitc5600!" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/cos?serverTimezone=Asia/Seoul" username="cos"/>
+      <Context docBase="C:\workspace\park\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\workspace\park\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\blog" path="/blog" reloadable="true" source="org.eclipse.jst.jee.server:blog">
+  <Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxIdle="30" maxTotal="100" maxWaitMillis="10000" name="jdbc/TestDB" password="BLACKAPPLE#$%^" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/cos?serverTimezone=Asia/Seoul" username="cos"/>
 
 </Context></Host>
     </Engine>
